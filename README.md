@@ -1,5 +1,5 @@
-# qt5bottle
-QT 5.12.2 EGLES Bottle for Raspbian Buster Lite
+# QT5Bottle by Blackheart dev.
+QT 5.12.2 EGLES Bottle for Raspbian Buster Lite without installations and compilations
 
 # Prepare Raspberry PI
 
