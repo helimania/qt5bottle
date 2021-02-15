@@ -56,7 +56,7 @@ If desired, login as root and change usernam and home path from pi
 ```ruby
 usermod --login newusername --move-home --home /home/newusername pi && groupmod --new-name newusername pi
 ```
-Now you can login as newusername.
+Now you can login as newusername
 
 Uncomment deb-src on sources.list
 ```ruby
