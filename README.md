@@ -76,4 +76,4 @@ wget https://raw.githubusercontent.com/helimania/qt5bottle/main/qt5bottle.instal
 chmod +x qt5bottle.install.sh
 sudo ./qt5bottle.install.sh
 ```
-This script will automatically download QT5Bottle and set up the necessary environment for running applications through EGLES
+This script automatically download QT5Bottle and set up the necessary environment for running applications through EGLES
