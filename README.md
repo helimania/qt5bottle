@@ -50,7 +50,7 @@ sudo reboot
 ```
 
 # Second Raspberry PI boot
-The following steps can be done localy on Raspberry or over SSH
+The following steps can be done localy on Raspberry PI or over SSH
 
 If desired, login as root and change usernam and home path from pi
 ```ruby
