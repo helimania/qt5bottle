@@ -68,7 +68,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo reboot
 ```
 
-# DT5Bottle installation
+# QT5Bottle installation
 
 Installation time will take no more than 5 minutes
 ```ruby
