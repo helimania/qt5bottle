@@ -80,9 +80,14 @@ This script automatically download QT5Bottle and set up the all necessary enviro
 
 # GL Driver
 
-If gldriver-test.service not start with error /usr/share/X11/xorg.conf.d/99-fbturbo.conf: No such file or directory
+If gldriver-test.service start with error /usr/share/X11/xorg.conf.d/99-fbturbo.conf: No such file or directory
+Install additional package
 ```ruby
 sudo apt-get install xserver-xorg-video-fbturbo
+```
+and restart service
+```ruby
+systemctl restart gldriver-test.service
 ```
 
 
