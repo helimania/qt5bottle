@@ -77,3 +77,12 @@ chmod +x qt5bottle.install.sh
 sudo ./qt5bottle.install.sh
 ```
 This script automatically download QT5Bottle and set up the all necessary environment for running applications through EGLES
+
+# GL Driver
+
+If gldriver-test.service not start with error /usr/share/X11/xorg.conf.d/99-fbturbo.conf: No such file or directory
+```ruby
+sudo apt-get install xserver-xorg-video-fbturbo
+```
+
+
