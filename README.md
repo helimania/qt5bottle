@@ -78,7 +78,7 @@ sudo ./qt5bottle.install.sh
 ```
 This script automatically download QT5Bottle and set up the all necessary environment for running applications through EGLES
 
-# GL Driver
+# GL driver troubleshooting
 
 If gldriver-test.service start with error /usr/share/X11/xorg.conf.d/99-fbturbo.conf: No such file or directory
 Install additional package
@@ -87,7 +87,7 @@ sudo apt-get install xserver-xorg-video-fbturbo
 ```
 and restart service
 ```ruby
-systemctl restart gldriver-test.service
+sudo systemctl restart gldriver-test.service
 ```
 
 
